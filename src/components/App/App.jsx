@@ -45,7 +45,7 @@ export class App extends Component {
       }));
 
       if (page !== 1) {
-        // scrollOnLoad();
+
       }
     } catch (error) {
       this.setState({ error: 'Oops something went wrong...' });
